@@ -3,6 +3,8 @@ import MainLayout from '../layouts/MainLayout.vue';
 import ContactLinks from '../components/ContactLinks.vue'
 import AboutMe from '../components/AboutMe.vue';
 import MyProjects from '../components/MyProjects.vue';
+import OtherProjects from '../components/OtherProjects.vue';
+import LastLinks from '../components/LastLinks.vue';
 </script>
 
 <template>
@@ -32,15 +34,13 @@ import MyProjects from '../components/MyProjects.vue';
 
             <div class="md:flex md:justify-evenly md:mt-10">
               <div class="mt-20 leading-5">
-                <h1 class="text-2xl">Oi, eu me chamo</h1>
-                <h1 class="text-4xl">Matheus Cavalcante</h1>
-                <p class="text-xl">Sou um desenvolvedor web <span class="text-3xl">Full-Stack</span><span
-                    class="text-4xl">.</span></p>
+                <h1 class="text-xl md:text-2xl">Oi, eu me chamo</h1>
+                <h1 class="text-3xl md:text-4xl">Matheus Cavalcante</h1>
+                <p class="text-lg md:text-xl">Sou um desenvolvedor web <span class="text-3xl">Full-Stack</span><span
+                    class="text-3xl md:text-4xl">.</span></p>
 
-                <div class="md:flex md:gap-2 mt-3 hover:text-black">
-
+                <div>
                   <ContactLinks />
-
                 </div>
               </div>
 
@@ -54,8 +54,13 @@ import MyProjects from '../components/MyProjects.vue';
       </div>
 
       <AboutMe />
-      
+
       <MyProjects />
 
-  </div>
-</MainLayout></template>
+      <OtherProjects />
+
+      <LastLinks />
+
+    </div>
+  </MainLayout>
+</template>

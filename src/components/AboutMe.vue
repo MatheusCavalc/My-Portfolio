@@ -5,6 +5,7 @@
 <template>
     <div class="bg-white text-black">
         <div class="px-14 py-10 md:mx-32 pb-20">
+            <a id="about-me"></a>
             <p class="text-4xl font-bold">Sobre mim</p>
             <div class="mt-3">
                 <p>Profissional ágil, com aprendizado contínuo, comunicativo, habituado com a rotina de uma empresa e
