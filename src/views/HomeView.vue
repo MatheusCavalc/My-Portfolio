@@ -12,7 +12,7 @@ import LastLinks from '../components/LastLinks.vue';
     <div>
 
       <div class="bg-slate-800 text-white">
-        <div class="px-14 py-10">
+        <div class="px-14">
           <div class="h-screen">
             <p class="text-xl flex gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
