@@ -44,7 +44,7 @@ import LastLinks from '../components/LastLinks.vue';
                 </div>
               </div>
 
-              <div class="mt-10 md:mt-0">
+              <div class="mt-10 md:mt-0 flex justify-center">
                 <img class="rounded-full h-60 w-60 md:h-80 md:w-80 border-4 border-white"
                   src="https://avatars.githubusercontent.com/u/105112560?v=4" alt="Matheus Cavalcante">
               </div>
