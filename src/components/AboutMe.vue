@@ -33,7 +33,7 @@
                     quanto a <span class="underline font-bold">Livewire (2 e 3)</span>, <span
                         class="underline font-bold">Alpine.js 3</span> e
                     <span class="underline font-bold">TailwindCSS</span> (Tall Stack) para criar experiências interativas e
-                    dinâmicas me sentindo completamente confortavel com ambas. Tenho conhecimento nos bancos de
+                    dinâmicas me sentindo completamente confortável com ambas. Tenho conhecimento nos bancos de
                     dados <span class="underline font-bold">MariaDB</span> e <span
                         class="underline font-bold">PostgreSQL</span>. Além disso,
                     possuo proficiência em

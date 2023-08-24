@@ -50,7 +50,7 @@
 
                     <p class="mb-2">Frameworks Utilizados:
                         <span class="font-bold">PHP 8.0</span>,
-                        <span class="font-bold">Laravel 9.0</span>,
+                        <span class="font-bold">Laravel 9.0 (API)</span>,
                         <span class="font-bold">Vue.js 3</span> e
                         <span class="font-bold">TailwindCSS</span>
                     </p>
