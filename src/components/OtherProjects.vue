@@ -32,6 +32,7 @@
                     </div>
 
                     <p class="mb-2">Frameworks Utilizados:
+                        <span class="font-bold">PHP 8.1</span>,
                         <span class="font-bold">Laravel 10 (API)</span>,
                         <span class="font-bold">Vuejs 3</span> e
                         <span class="font-bold">TailwindCSS</span>
