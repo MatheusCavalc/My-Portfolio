@@ -40,9 +40,11 @@
                     </div>
 
                     <div class="mt-2 md:ml-3">
-                        <p>
-                            Repositório: <a href="https://github.com/MatheusCavalc/SneakersApp-livewirev3" target="_blank"
-                                class="font-bold text-slate-800 hover:underline">Github</a>
+                        <p class="flex">
+                            Repositório: 
+                            <a href="https://github.com/MatheusCavalc/SneakersApp-livewirev3" target="_blank"
+                                class="ml-1 font-bold text-slate-800 hover:underline">Github</a>
+                            <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
                         </p>
                     </div>
                 </div>
@@ -80,9 +82,9 @@
                     </div>
 
                     <div class="mt-2 md:ml-3">
-                        <p>
+                        <p class="flex">
                             Repositório: <a href="https://github.com/MatheusCavalc/EsportsNews-L10" target="_blank"
-                                class="font-bold text-slate-800 hover:underline">Github</a>
+                                class="ml-1 font-bold text-slate-800 hover:underline">Github</a> <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
                         </p>
                     </div>
                 </div>
@@ -120,16 +122,16 @@
                     </div>
 
                     <div class="mt-2 md:ml-3">
-                        <p>
-                            Repositório: <a class="font-bold text-slate-800 hover:underline" target="_blank"
-                                href="https://github.com/MatheusCavalc/studio-lar-interiores">Github</a>
+                        <p class="flex">
+                            Repositório: <a class="ml-1 font-bold text-slate-800 hover:underline" target="_blank"
+                                href="https://github.com/MatheusCavalc/studio-lar-interiores">Github</a> <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
                         </p>
                     </div>
 
                     <div class="mt-2 md:ml-3">
-                        <p>
-                            Website: <a class="font-bold text-slate-800 hover:underline" target="_blank"
-                                href="https://studio-lar-interiores.vercel.app/">Link</a>
+                        <p class="flex">
+                            Website: <a class="ml-1 font-bold text-slate-800 hover:underline" target="_blank"
+                                href="https://studio-lar-interiores.vercel.app/">Link</a> <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
                         </p>
                     </div>
                 </div>
