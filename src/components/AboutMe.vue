@@ -1,5 +1,39 @@
 <script setup>
+const debounce = (func, wait, immediate) => {
+    let timeout;
+    return function (...args) {
+        const context = this;
+        const later = function () {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        const callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
 
+const scrollAnimation = () => {
+    const target = document.querySelectorAll('[data-animation]')
+
+    const windowTop = window.pageYOffset + ((window.innerHeight * 4) / 5);
+    target.forEach(function (el) {
+        let rect = el.getBoundingClientRect()
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        let top = rect.top + scrollTop
+
+        if (windowTop > top) {
+            el.classList.add("animate")
+        } else {
+            el.classList.remove("animate")
+        }
+    })
+}
+
+window.addEventListener('scroll', debounce(function () {
+    scrollAnimation();
+}, 100))
 </script>
 
 <template>
@@ -7,14 +41,14 @@
         <div class="px-14 py-10 md:mx-32 pb-20">
             <a id="about-me"></a>
             <p class="text-4xl font-bold">Sobre mim</p>
-            <div class="mt-3">
+            <div class="mt-3" data-animation="left">
                 <p>Profissional ágil, com aprendizado contínuo, comunicativo, habituado com a rotina de uma empresa e
                     sempre
                     procurando resolver problemas com soluções rápidas e práticas. Procuro sempre me manter atualizado sobre
                     as
                     tecnologias que uso e, assim, me tornar um dev o mais completo possível. </p>
             </div>
-            <div class="mt-3">
+            <div class="mt-3" data-animation="left">
                 <p>
                     Sou um desenvolvedor web apaixonado com uma sólida experiência nas mais recentes tecnologias. Minhas
                     habilidades abrangem desde a criação de interfaces atraentes com <span

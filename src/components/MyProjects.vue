@@ -1,5 +1,39 @@
 <script setup>
+const debounce = (func, wait, immediate) => {
+    let timeout;
+    return function (...args) {
+        const context = this;
+        const later = function () {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        const callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
 
+const scrollAnimation = () => {
+    const target = document.querySelectorAll('[data-animation]')
+
+    const windowTop = window.pageYOffset + ((window.innerHeight * 4) / 5);
+    target.forEach(function (el) {
+        let rect = el.getBoundingClientRect()
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        let top = rect.top + scrollTop
+
+        if (windowTop > top) {
+            el.classList.add("animate")
+        } else {
+            el.classList.remove("animate")
+        }
+    })
+}
+
+window.addEventListener('scroll', debounce(function () {
+    scrollAnimation();
+}, 100))
 </script>
 
 <template>
@@ -9,12 +43,12 @@
             <p class="text-4xl font-bold">Meus Projetos</p>
 
             <div id="project-1" class="md:flex md:gap-3 mt-10">
-                <div>
+                <div data-animation="left">
                     <img class="object-cover border border-black" src="../assets/Project-Sneakers.png"
                         alt="Project Sneakers">
                 </div>
 
-                <div class="">
+                <div class="" data-animation="right">
                     <div class="md:w-96 w-full">
                         <div class="mt-4 md:mt-0">
                             <h1 class="text-2xl md:text-4xl font-bold text-center">Sneakers App</h1>
@@ -41,7 +75,7 @@
 
                     <div class="mt-2 md:ml-3">
                         <p class="flex">
-                            Repositório: 
+                            Repositório:
                             <a href="https://github.com/MatheusCavalc/SneakersApp-livewirev3" target="_blank"
                                 class="ml-1 font-bold text-slate-800 hover:underline">Github</a>
                             <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
@@ -55,11 +89,11 @@
             </div>
 
             <div id="project-2" class="md:flex md:gap-3 mt-10">
-                <div>
+                <div data-animation="left">
                     <img class="object-cover border border-black" src="../assets/E-newS-1.png" alt="Project Sneakers">
                 </div>
 
-                <div class="">
+                <div class="" data-animation="right">
                     <div class="md:w-96 w-full">
                         <div class="mt-4 md:mt-0">
                             <h1 class="text-2xl md:text-4xl font-bold text-center">E-newS App</h1>
@@ -84,7 +118,8 @@
                     <div class="mt-2 md:ml-3">
                         <p class="flex">
                             Repositório: <a href="https://github.com/MatheusCavalc/EsportsNews-L10" target="_blank"
-                                class="ml-1 font-bold text-slate-800 hover:underline">Github</a> <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
+                                class="ml-1 font-bold text-slate-800 hover:underline">Github</a> <span><img
+                                    class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
                         </p>
                     </div>
                 </div>
@@ -95,13 +130,13 @@
             </div>
 
             <div id="project-3" class="md:flex md:gap-3 mt-10">
-                <div>
+                <div data-animation="left">
                     <a target="_blank" href="https://studio-lar-interiores.vercel.app/">
                         <img class="object-cover border border-black" src="../assets/Studio-Lar.png" alt="Project Sneakers">
                     </a>
                 </div>
 
-                <div class="">
+                <div class="" data-animation="right">
                     <div class="md:w-96 w-full">
                         <div class="mt-4 md:mt-0">
                             <h1 class="text-2xl md:text-4xl font-bold text-center">Studio Lar Interiores</h1>
@@ -124,14 +159,16 @@
                     <div class="mt-2 md:ml-3">
                         <p class="flex">
                             Repositório: <a class="ml-1 font-bold text-slate-800 hover:underline" target="_blank"
-                                href="https://github.com/MatheusCavalc/studio-lar-interiores">Github</a> <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
+                                href="https://github.com/MatheusCavalc/studio-lar-interiores">Github</a> <span><img
+                                    class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
                         </p>
                     </div>
 
                     <div class="mt-2 md:ml-3">
                         <p class="flex">
                             Website: <a class="ml-1 font-bold text-slate-800 hover:underline" target="_blank"
-                                href="https://studio-lar-interiores.vercel.app/">Link</a> <span><img class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
+                                href="https://studio-lar-interiores.vercel.app/">Link</a> <span><img
+                                    class="h-5 w-5 md:h-6 md:w-6" src="../assets/icons/redirect.svg" alt=""></span>
                         </p>
                     </div>
                 </div>
@@ -141,5 +178,4 @@
                 <div class="h-1 w-full md:w-4/5 bg-slate-800 rounded-full"></div>
             </div>
         </div>
-    </div>
-</template>
+</div></template>
