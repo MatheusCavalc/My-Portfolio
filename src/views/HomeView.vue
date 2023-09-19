@@ -11,10 +11,10 @@ import LastLinks from '../components/LastLinks.vue';
   <MainLayout>
     <div>
 
-      <div class="bg-slate-800 text-white">
-        <div class="px-14">
+      <div class="text-white bg-slate-800">
+        <div class="px-5 md:px-14">
           <div class="h-screen">
-            <p class="text-xl flex gap-2">
+            <p class="flex gap-2 text-xl">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-9 h-9">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -44,8 +44,8 @@ import LastLinks from '../components/LastLinks.vue';
                 </div>
               </div>
 
-              <div class="mt-10 md:mt-0 flex justify-center">
-                <img class="rounded-full h-60 w-60 md:h-80 md:w-80 border-4 border-white"
+              <div class="flex justify-center mt-10 md:mt-0">
+                <img class="border-4 border-white rounded-full h-60 w-60 md:h-80 md:w-80"
                   src="https://avatars.githubusercontent.com/u/105112560?v=4" alt="Matheus Cavalcante">
               </div>
             </div>
