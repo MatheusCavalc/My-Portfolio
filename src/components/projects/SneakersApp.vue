@@ -1,11 +1,14 @@
 <script setup>
+import image1 from '/src/assets/images/Project-Sneakers-1.png'
+import image2 from '/src/assets/images/Project-Sneakers-2.png'
+import image3 from '/src/assets/images/Project-Sneakers-3.png'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
 const items = [
-    { image: '/src/assets/images/Project-Sneakers-1.png' },
-    { image: '/src/assets/images/Project-Sneakers-2.png' },
-    { image: '/src/assets/images/Project-Sneakers-3.png' },
+    { image: image1 },
+    { image: image2 },
+    { image: image3 },
 ];
 </script>
 

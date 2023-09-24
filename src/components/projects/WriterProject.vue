@@ -1,14 +1,20 @@
 <script setup>
+import image1 from '/src/assets/images/Writer-App-1.png'
+import image2 from '/src/assets/images/Writer-App-2.png'
+import image3 from '/src/assets/images/Writer-App-3.png'
+import image4 from '/src/assets/images/Writer-App-4.png'
+import image5 from '/src/assets/images/Writer-App-5.png'
+import image6 from '/src/assets/images/Writer-App-6.png'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
 const items = [
-    { image: '/src/assets/images/Writer-App-1.png' },
-    { image: '/src/assets/images/Writer-App-2.png' },
-    { image: '/src/assets/images/Writer-App-3.png' },
-    { image: '/src/assets/images/Writer-App-4.png' },
-    { image: '/src/assets/images/Writer-App-5.png' },
-    { image: '/src/assets/images/Writer-App-6.png' },
+    { image: image1 },
+    { image: image2 },
+    { image: image3 },
+    { image: image4 },
+    { image: image5 },
+    { image: image6 },
 ];
 </script>
 
