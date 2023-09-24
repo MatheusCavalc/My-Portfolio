@@ -1,10 +1,12 @@
 <script setup>
+import image1 from '../../assets/images/E-newS-1.png';
+import image2 from '../../assets/images/E-newS-2.png';
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
 const items = [
-    { image: 'src/assets/images/E-newS-1.png' },
-    { image: 'src/assets/images/E-newS-2.png' },
+    { image: image1 },
+    { image: image2 },
 ];
 </script>
 
