@@ -3,8 +3,8 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
 const items = [
-    { image: '../../assets/images/E-newS-1.png' },
-    { image: '../../assets/images/E-newS-2.png' },
+    { image: '/assets/images/E-newS-1.png' },
+    { image: '/assets/images/E-newS-2.png' },
 ];
 </script>
 
