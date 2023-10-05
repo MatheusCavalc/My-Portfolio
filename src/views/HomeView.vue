@@ -5,6 +5,7 @@ import AboutMe from '../components/AboutMe.vue';
 import MyProjects from '../components/MyProjects.vue';
 import OtherProjects from '../components/OtherProjects.vue';
 import LastLinks from '../components/LastLinks.vue';
+import MyTechnologies from '../components/MyTechnologies.vue';
 </script>
 
 <template>
@@ -13,7 +14,7 @@ import LastLinks from '../components/LastLinks.vue';
 
       <div class="text-white bg-slate-800">
         <div class="px-5 md:px-14">
-          <div class="h-screen">
+          <div class="pb-28">
             <p class="flex gap-2 text-xl">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-9 h-9">
@@ -33,7 +34,12 @@ import LastLinks from '../components/LastLinks.vue';
             </p>
 
             <div class="md:flex md:justify-evenly md:mt-10">
-              <div class="mt-20 leading-5">
+              <div class="flex justify-center mt-10 md:mt-0 order-1 md:order-2">
+                <img class="border-4 border-white rounded-full h-60 w-60 md:h-80 md:w-80"
+                  src="https://avatars.githubusercontent.com/u/105112560?v=4" alt="Matheus Cavalcante">
+              </div>
+
+              <div class="mt-10 md:mt-20 leading-5 order-2 md:order-1 text-center md:text-left">
                 <h1 class="text-xl md:text-2xl">Oi, eu me chamo</h1>
                 <h1 class="text-3xl md:text-4xl">Matheus Cavalcante</h1>
                 <p class="text-lg md:text-xl">Sou um desenvolvedor web <span class="text-3xl">Full-Stack</span><span
@@ -43,17 +49,14 @@ import LastLinks from '../components/LastLinks.vue';
                   <ContactLinks />
                 </div>
               </div>
-
-              <div class="flex justify-center mt-10 md:mt-0">
-                <img class="border-4 border-white rounded-full h-60 w-60 md:h-80 md:w-80"
-                  src="https://avatars.githubusercontent.com/u/105112560?v=4" alt="Matheus Cavalcante">
-              </div>
             </div>
           </div>
         </div>
       </div>
 
       <AboutMe />
+
+      <MyTechnologies />
 
       <MyProjects />
 
