@@ -23,7 +23,7 @@ const items = [
         <div data-animation="left">
             <Carousel perPage="1" :pagination="true">
                 <Slide v-for="(item, index) in items" :key="index">
-                    <img :src="item.image" alt="E-newS Project" />
+                    <img :src="item.image" class="w-full h-full object-contain border border-black" alt="Writer Project" />
                 </Slide>
 
                 <template #addons>
