@@ -23,7 +23,7 @@ const copyGmail = () => {
         <div class="flex justify-center gap-2 md:gap-3 mt-4">
             <a href="https://drive.google.com/file/d/1uyQXr3Q02odF39yA1Y9QRssMJVZC6-6Q/view?usp=sharing" target="_blank">
                 <button
-                    class="flex gap-2 px-4 py-2 mb-2 font-bold text-slate-900 bg-white rounded-full hover:bg-gray-300 md:mb-0">
+                    class="flex gap-2 px-4 py-2 mb-2 font-bold text-slate-900 bg-white rounded-full hover:bg-slate-900 hover:text-white md:mb-0">
                     <p class="mt-0.5">
                         Baixar CV
                     </p>
@@ -35,7 +35,7 @@ const copyGmail = () => {
                 </button>
             </a>
 
-            <button class="flex gap-2 px-4 py-2 mb-2 font-bold text-black bg-white rounded-full hover:bg-gray-300 md:mb-0">
+            <button class="flex gap-2 px-4 py-2 mb-2 font-bold text-slate-900 bg-white rounded-full hover:bg-slate-900 hover:text-white md:mb-0">
                 <p class="mt-0.5">
                     Entre em Contato
                 </p>
