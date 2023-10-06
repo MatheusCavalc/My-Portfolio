@@ -57,7 +57,7 @@ window.addEventListener('scroll', debounce(function () {
                                 <MyAbilities name="JavaScript (ES12)" />
                                 <MyAbilities name="Vue.js 3" />
                                 <MyAbilities name="Alpine.js 3" />
-                                <MyAbilities name="TailwindCSS 2.x" />
+                                <MyAbilities name="TailwindCSS" />
                             </div>
                         </div>
                     </div>
