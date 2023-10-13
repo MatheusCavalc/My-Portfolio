@@ -31,7 +31,8 @@ const showMenu = () => {
                     </li>
                     <li>
                         <a href="#my-technologies"
-                            class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0">Minhas Tecnologias</a>
+                            class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0">Minhas
+                            Tecnologias</a>
                     </li>
                     <li>
                         <a href="#my-projects"
@@ -68,5 +69,4 @@ const showMenu = () => {
             </div>
         </div>
     </footer>
-    
 </template>
