@@ -2,8 +2,8 @@
 import EnewsProject from './projects/EnewsProject.vue';
 import TasksApp from './projects/TasksApp.vue';
 import SneakersApp from './projects/SneakersApp.vue';
-import StudioLar from './projects/StudioLar.vue';
 import WriterProject from './projects/WriterProject.vue';
+import SushiFortal from './projects/SushiFortal.vue';
 
 const debounce = (func, wait, immediate) => {
     let timeout;
@@ -50,11 +50,11 @@ window.addEventListener('scroll', debounce(function () {
 
             <TasksApp />
 
+            <SushiFortal />
+            
             <SneakersApp />
 
             <EnewsProject />
-
-            <StudioLar />
 
             <WriterProject />
         </div>
