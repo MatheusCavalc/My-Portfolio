@@ -19,3 +19,13 @@
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
+
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}

@@ -1,4 +1,5 @@
 <script setup>
+import SkinsMarketplace from './projects/SkinsMarketplace.vue';
 import EnewsProject from './projects/EnewsProject.vue';
 import TasksApp from './projects/TasksApp.vue';
 import SneakersApp from './projects/SneakersApp.vue';
@@ -47,6 +48,8 @@ window.addEventListener('scroll', debounce(function () {
         <div class="py-10 px-14 md:mx-32">
             <a id="my-projects"></a>
             <p class="text-4xl font-bold">Meus Projetos</p>
+
+            <SkinsMarketplace />
 
             <TasksApp />
 

@@ -20,10 +20,10 @@ const copyGmail = () => {
 
 <template>
     <div>
-        <div class="flex justify-center gap-2 md:gap-3 mt-4">
-            <a href="https://drive.google.com/file/d/1uyQXr3Q02odF39yA1Y9QRssMJVZC6-6Q/view?usp=sharing" target="_blank">
+        <div class="flex justify-center gap-2 mt-4 md:gap-3">
+            <a href="https://drive.google.com/file/d/16McHhfFUFB4LQKNzbfSqZ1JDo_nuRX4X/view?usp=sharing" target="_blank">
                 <button
-                    class="flex gap-2 px-4 py-2 mb-2 font-bold text-slate-900 bg-white rounded-full hover:bg-slate-900 hover:text-white md:mb-0">
+                    class="flex gap-2 px-4 py-2 mb-2 font-bold bg-white rounded-full text-slate-900 hover:bg-slate-900 hover:text-white md:mb-0">
                     <p class="mt-0.5">
                         Baixar CV
                     </p>
@@ -37,7 +37,7 @@ const copyGmail = () => {
 
             <a href="https://api.whatsapp.com/send?phone=5585985597635" target="_blank">
                 <button
-                    class="flex gap-2 px-4 py-2 mb-2 font-bold text-slate-900 bg-white rounded-full hover:bg-slate-900 hover:text-white md:mb-0">
+                    class="flex gap-2 px-4 py-2 mb-2 font-bold bg-white rounded-full text-slate-900 hover:bg-slate-900 hover:text-white md:mb-0">
                     <p class="mt-0.5">
                         Entre em Contato
                     </p>
@@ -106,7 +106,7 @@ const copyGmail = () => {
 
     <Transition>
         <div v-show="divEmail" @mouseleave="divEmail = false"
-            class="absolute mt-2 ml-20 bg-white rounded-lg shadow-md p-2 font-bold text-black">
+            class="absolute p-2 mt-2 ml-20 font-bold text-black bg-white rounded-lg shadow-md">
             {{ gmail }}
         </div>
     </Transition>
@@ -126,15 +126,3 @@ const copyGmail = () => {
         </div>
     </Transition>
 </template>
-
-<style scoped>
-.v-enter-active,
-.v-leave-active {
-    transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-    opacity: 0;
-}
-</style>
