@@ -45,9 +45,9 @@ window.addEventListener('scroll', debounce(function () {
 
 <template>
     <div class="text-black bg-white">
-        <div class="py-10 px-14 md:mx-32">
+        <div class="px-5 py-10 md:mx-32">
             <a id="my-projects"></a>
-            <p class="text-4xl font-bold">Meus Projetos</p>
+            <p class="text-4xl font-bold text-center lg:text-left">Meus Projetos</p>
 
             <SkinsMarketplace />
 
