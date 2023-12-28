@@ -48,7 +48,7 @@ onMounted(() => {
                     <button type="button" @click="changeView('mobile')"
                         :class="{ 'text-white bg-slate-900 border': view === 'mobile', 'text-black bg-white border-2 border-black': view !== 'mobile' }"
                         class="font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
-                        Mobile
+                        App
                     </button>
                 </div>
             </div>
@@ -85,7 +85,7 @@ onMounted(() => {
             </div>
         </div>
 
-        <div class="lg:w-2/5" data-animation="right">
+        <div class="mt-20 lg:w-2/5" data-animation="right">
             <div class="w-full md:w-96">
                 <div class="mt-4 md:mt-0">
                     <h1 class="text-2xl font-bold text-center md:text-4xl">Skins Marketplace</h1>
