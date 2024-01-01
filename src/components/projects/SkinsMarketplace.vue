@@ -1,11 +1,19 @@
 <script setup>
-import image1 from '../../assets/images/Skins-Marketplace-1.png';
-import image2 from '../../assets/images/Skins-Marketplace-2.png';
+import image2 from '../../assets/images/Skins-Marketplace-1.png';
+import image1 from '../../assets/images/Skins-Marketplace-2.png';
 import image3 from '../../assets/images/Skins-Marketplace-3.png';
+import image4 from '../../assets/images/Skins-Marketplace-4.png';
+import image5 from '../../assets/images/Skins-Marketplace-5.png';
 
-import image4 from '../../assets/images/Ionic-Skins-Marketplace-1.jpg';
-import image5 from '../../assets/images/Ionic-Skins-Marketplace-2.jpg';
-import image6 from '../../assets/images/Ionic-Skins-Marketplace-3.jpg';
+import image9 from '../../assets/images/Skin-Marketplace-Movel-1.png';
+import image10 from '../../assets/images/Skin-Marketplace-Movel-2.png';
+import image11 from '../../assets/images/Skin-Marketplace-Movel-3.png';
+import image12 from '../../assets/images/Skin-Marketplace-Movel-4.png';
+import image13 from '../../assets/images/Skin-Marketplace-Movel-5.png';
+
+import image6 from '../../assets/images/Ionic-Skins-Marketplace-1.jpg';
+import image7 from '../../assets/images/Ionic-Skins-Marketplace-2.jpg';
+import image8 from '../../assets/images/Ionic-Skins-Marketplace-3.jpg';
 
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
@@ -14,13 +22,23 @@ import { onMounted, ref } from 'vue';
 const itemsWeb = [
     { image: image2 },
     { image: image1 },
-    { image: image3 }
+    { image: image3 },
+    { image: image4 },
+    { image: image5 }
 ];
 
 const itemsIonic = [
-    { image: image4 },
-    { image: image5 },
-    { image: image6 }
+    { image: image6 },
+    { image: image7 },
+    { image: image8 }
+];
+
+const itemsMobile = [
+    { image: image9 },
+    { image: image10 },
+    { image: image11 },
+    { image: image12 },
+    { image: image13 }
 ];
 
 const view = ref('')
@@ -48,6 +66,12 @@ onMounted(() => {
                     <button type="button" @click="changeView('mobile')"
                         :class="{ 'text-white bg-slate-900 border': view === 'mobile', 'text-black bg-white border-2 border-black': view !== 'mobile' }"
                         class="font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
+                        Mobile
+                    </button>
+
+                    <button type="button" @click="changeView('app')"
+                        :class="{ 'text-white bg-slate-900 border': view === 'app', 'text-black bg-white border-2 border-black': view !== 'app' }"
+                        class="font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
                         App
                     </button>
                 </div>
@@ -69,6 +93,21 @@ onMounted(() => {
                 </div>
 
                 <div v-if="view == 'mobile'">
+                    <Carousel perPage="1" :pagination="true">
+                        <Slide v-for="(item, index) in itemsMobile" :key="index">
+                            <img :src="item.image"
+                                class="object-contain bg-black border-2 border-black h-[400px] rounded-xl"
+                                alt="Skins Marketplace" />
+                        </Slide>
+
+                        <template #addons>
+                            <Navigation />
+                            <Pagination />
+                        </template>
+                    </Carousel>
+                </div>
+
+                <div v-if="view == 'app'">
                     <Carousel perPage="1" :pagination="true">
                         <Slide v-for="(item, index) in itemsIonic" :key="index">
                             <img :src="item.image"
