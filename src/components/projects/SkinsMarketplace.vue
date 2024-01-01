@@ -60,7 +60,7 @@ onMounted(() => {
                     <button type="button" @click="changeView('web')"
                         :class="{ 'text-white bg-slate-900 border': view === 'web', ' text-black bg-white border-2 border-black': view !== 'web' }"
                         class="font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
-                        Web
+                        Desktop
                     </button>
 
                     <button type="button" @click="changeView('mobile')"
