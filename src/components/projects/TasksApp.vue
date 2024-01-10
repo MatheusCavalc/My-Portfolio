@@ -104,7 +104,7 @@ onMounted(() => {
                 <p>
                     Frameworks utilizados: <span class="font-bold">PHP 8.1</span>, <span class="font-bold">Laravel
                         10</span>, <span class="font-bold">Inertia.js 1.0</span>, <span class="font-bold">Vue.js
-                        3</span> e <span class="font-bold">TailwindCSS</span>
+                        3</span>, <span class="font-bold">TailwindCSS</span> e <span class="font-bold">MySQL</span>
                 </p>
             </div>
 

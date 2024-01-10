@@ -50,8 +50,9 @@
                     <p class="mb-2">Frameworks Utilizados:
                         <span class="font-bold">PHP 8.1</span>,
                         <span class="font-bold">Laravel 10 (API)</span>,
-                        <span class="font-bold">Vuejs 3</span> e
-                        <span class="font-bold">TailwindCSS</span>
+                        <span class="font-bold">Vuejs 3</span>,
+                        <span class="font-bold">TailwindCSS</span> e
+                        <span class="font-bold">MySQL</span>
                     </p>
                     <p class="flex text-white">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
                             href="https://github.com/MatheusCavalc/url-shortener">Link</a>
@@ -73,10 +74,12 @@
                     </div>
 
                     <p class="mb-2">Frameworks Utilizados:
-                        <span class="font-bold">PHP 8.0</span>,
-                        <span class="font-bold">Laravel 9.0 (API)</span>,
-                        <span class="font-bold">Vue.js 3</span> e
-                        <span class="font-bold">TailwindCSS</span>
+                        <span class="font-bold">PHP 8.0</span>, 
+                        <span class="font-bold">Laravel 9.0 (API)</span>, 
+                        <span class="font-bold">Sail (Docker)</span>, 
+                        <span class="font-bold">Vue.js 3</span>, 
+                        <span class="font-bold">TailwindCSS</span> e
+                        <span class="font-bold">MariaDB</span>
                     </p>
                     <p class="flex text-white">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
                             href="https://github.com/MatheusCavalc/ApiLaravel-VueConsume">Link</a>
@@ -100,12 +103,14 @@
                     <p class="mb-2">Frameworks Utilizados:
                         <span class="font-bold">PHP 8.0</span>,
                         <span class="font-bold">Laravel 9.0</span>,
+                        <span class="font-bold">Sail (Docker)</span>,
                         <span class="font-bold">Livewire 2</span>,
-                        <span class="font-bold">Alpine.js 3</span> e
-                        <span class="font-bold">TailwindCSS</span>
+                        <span class="font-bold">Alpine.js 3</span>,
+                        <span class="font-bold">TailwindCSS</span> e
+                        <span class="font-bold">MariaDB</span>
                     </p>
                     <p class="flex text-white">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
-                            href="https://github.com/MatheusCavalc/diecast-project">Link</a>
+                            href="https://github.com/MatheusCavalc/Food-App">Link</a>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="w-5 h-5 md:w-6 md:h-6">

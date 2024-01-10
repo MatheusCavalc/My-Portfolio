@@ -101,8 +101,8 @@ onMounted(() => {
             <div class="mt-2 md:ml-3">
                 <p>
                     Frameworks utilizados: <span class="font-bold">PHP 8.1</span>, <span class="font-bold">Laravel
-                        10</span>, <span class="font-bold">Inertia.js 1.0</span>, <span class="font-bold">Vue.js
-                        3</span> e <span class="font-bold">TailwindCSS</span>
+                        10</span>, <span class="font-bold">Sail (Docker)</span>, <span class="font-bold">Inertia.js 1.0</span>, <span class="font-bold">Vue.js
+                        3</span>, <span class="font-bold">TailwindCSS</span> e <span class="font-bold">PostgreSQL</span>
                 </p>
             </div>
 

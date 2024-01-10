@@ -49,8 +49,10 @@ const items = [
 
             <div class="mt-2 md:ml-3">
                 <p>
-                    Frameworks utilizados: <span class="font-bold">PHP 8.0</span>, <span class="font-bold">Laravel
-                        9 API</span>, <span class="font-bold">Vue.js 3</span>, e <span class="font-bold">TailwindCSS</span>
+                    Frameworks utilizados: <span class="font-bold">PHP 8.0</span>, <span class="font-bold">Laravel 9
+                        API</span>, <span class="font-bold">Sail (Docker)</span>,
+                    <span class="font-bold">Vue.js 3</span>, <span class="font-bold">TailwindCSS</span> e
+                    <span class="font-bold">MariaDB</span>
                 </p>
             </div>
 
