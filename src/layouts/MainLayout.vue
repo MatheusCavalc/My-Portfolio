@@ -10,7 +10,7 @@ const showMenu = () => {
 
 <template>
     <nav class="fixed z-50 w-full bg-slate-800">
-        <div class="flex flex-wrap items-center justify-end max-w-screen-xl p-3 mx-auto lg:p-6">
+        <div class="flex flex-wrap items-center justify-end max-w-screen-xl p-3 mx-auto lg:p-5">
             <button @click="showMenu" data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden"
                 aria-controls="navbar-default" aria-expanded="false">
