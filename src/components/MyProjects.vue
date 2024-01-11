@@ -49,8 +49,6 @@ window.addEventListener('scroll', debounce(function () {
             <a id="my-projects"></a>
             <p class="text-4xl font-bold text-center lg:text-left">Meus Projetos</p>
 
-            <SkinsMarketplace />
-
             <TasksApp />
 
             <SushiFortal />
@@ -60,6 +58,8 @@ window.addEventListener('scroll', debounce(function () {
             <EnewsProject />
 
             <WriterProject />
+
+            <SkinsMarketplace />
         </div>
     </div>
 </template>
