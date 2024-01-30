@@ -86,7 +86,7 @@ onMounted(() => {
             </div>
         </div>
 
-        <div class="mt-20 lg:w-2/5" data-animation="right">
+        <div class="mt-5 lg:mt-20 lg:w-2/5" data-animation="right">
             <div class="w-full md:w-96">
                 <div class="mt-4 md:mt-0">
                     <h1 class="text-2xl font-bold text-center md:text-4xl">Tasks App</h1>
