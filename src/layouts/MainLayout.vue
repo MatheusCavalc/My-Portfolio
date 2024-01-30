@@ -9,7 +9,7 @@ const showMenu = () => {
 </script>
 
 <template>
-    <nav class="fixed z-50 w-full bg-slate-800">
+    <nav class="fixed z-50 w-full bg-black">
         <div class="flex flex-wrap items-center justify-end max-w-screen-xl p-3 mx-auto lg:p-5">
             <button @click="showMenu" data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden"
@@ -23,7 +23,7 @@ const showMenu = () => {
             </button>
             <div :class="{ 'md:block': menu, 'hidden md:block': !menu }" class="w-full md:w-auto" id="navbar-default">
                 <ul
-                    class="flex flex-col p-4 mt-4 font-medium rounded-lg md:text-white md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-slate-800">
+                    class="flex flex-col p-4 mt-4 font-medium rounded-lg md:text-white md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black">
                     <li>
                         <a href="#about-me"
                             class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0">Sobre
@@ -53,7 +53,7 @@ const showMenu = () => {
         <slot />
     </div>
 
-    <footer class="py-10 text-white bg-slate-800">
+    <footer class="py-6 text-white bg-black">
         <div class="flex justify-center gap-5 mx-8 font-bold md:text-lg">
             <div>
                 <a href="#about-me">Sobre Mim</a>

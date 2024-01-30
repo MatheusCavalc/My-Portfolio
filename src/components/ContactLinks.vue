@@ -20,11 +20,11 @@ const copyGmail = () => {
 
 <template>
     <div>
-        <div class="flex justify-center gap-2 mt-4 md:gap-3">
+        <div class="flex justify-center gap-2 mt-4 md:gap-2">
             <a href="https://drive.google.com/file/d/16McHhfFUFB4LQKNzbfSqZ1JDo_nuRX4X/view?usp=sharing" target="_blank">
                 <button
-                    class="flex gap-2 px-4 py-2 mb-2 font-bold bg-white rounded-full text-slate-900 hover:bg-slate-900 hover:text-white md:mb-0">
-                    <p class="mt-0.5">
+                    class="flex gap-1 lg:gap-2 px-4 py-2 mb-2 font-bold bg-white rounded-full text-slate-900 hover:bg-slate-900 hover:text-white md:mb-0">
+                    <p class="mt-0.5 text-sm lg:text-base">
                         Baixar CV
                     </p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -38,7 +38,7 @@ const copyGmail = () => {
             <a href="https://api.whatsapp.com/send?phone=5585985597635" target="_blank">
                 <button
                     class="flex gap-2 px-4 py-2 mb-2 font-bold bg-white rounded-full text-slate-900 hover:bg-slate-900 hover:text-white md:mb-0">
-                    <p class="mt-0.5">
+                    <p class="mt-0.5 text-sm lg:text-base">
                         Entre em Contato
                     </p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"

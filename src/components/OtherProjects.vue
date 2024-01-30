@@ -3,13 +3,13 @@
 </script>
 
 <template>
-    <div class="text-black bg-white">
+    <div class="text-white py-10 bg-black">
         <div class="pt-1 pb-10 px-14 md:mx-32">
             <a id="other-projects"></a>
             <p class="text-4xl font-bold">Outros Projetos</p>
 
-            <div class="md:grid md:grid-cols-2 md:gap-4 mt-10 text-white">
-                <div class="bg-slate-800 rounded-lg p-5 mb-3 md:mb-0">
+            <div class="md:grid md:grid-cols-2 md:gap-4 mt-10 text-black">
+                <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
                     <p class="text-3xl">Areia e Maré Viagens</p>
 
                     <div class="flex justify-center my-3">
@@ -18,7 +18,7 @@
 
                     <p class="mb-2">Frameworks Utilizados: <span class="font-bold">Vue.js 3</span>, <span
                             class="font-bold">TailwindCSS</span> e <span class="font-bold">Pinia</span></p>
-                    <p class="mb-2 flex text-white">Website Link: <a class="ml-1 hover:text-gray-500 font-bold"
+                    <p class="mb-2 flex">Website Link: <a class="ml-1 hover:text-gray-500 font-bold"
                             target="_blank" href="https://areia-e-mare.vercel.app/">Link</a>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -28,7 +28,7 @@
                             </svg>
                         </span>
                     </p>
-                    <p class="flex text-white">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
+                    <p class="flex">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
                             href="https://github.com/MatheusCavalc/Areia-E-Mare">Link</a>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -40,7 +40,7 @@
                     </p>
                 </div>
 
-                <div class="bg-slate-800 rounded-lg p-5 mb-3 md:mb-0">
+                <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
                     <p class="text-3xl">Encurtador de URL</p>
 
                     <div class="flex justify-center my-3">
@@ -54,7 +54,7 @@
                         <span class="font-bold">TailwindCSS</span> e
                         <span class="font-bold">MySQL</span>
                     </p>
-                    <p class="flex text-white">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
+                    <p class="flex">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
                             href="https://github.com/MatheusCavalc/url-shortener">Link</a>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -66,7 +66,7 @@
                     </p>
                 </div>
 
-                <div class="bg-slate-800 rounded-lg p-5 mb-3 md:mb-0">
+                <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
                     <p class="text-3xl">Laravel API e Vue 3 Consume</p>
 
                     <div class="flex justify-center my-3">
@@ -81,7 +81,7 @@
                         <span class="font-bold">TailwindCSS</span> e
                         <span class="font-bold">MariaDB</span>
                     </p>
-                    <p class="flex text-white">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
+                    <p class="flex">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
                             href="https://github.com/MatheusCavalc/ApiLaravel-VueConsume">Link</a>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -93,7 +93,7 @@
                     </p>
                 </div>
 
-                <div class="bg-slate-800 rounded-lg p-5 mb-3 md:mb-0">
+                <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
                     <p class="text-3xl">Food App</p>
 
                     <div class="flex justify-center my-3">
@@ -109,7 +109,7 @@
                         <span class="font-bold">TailwindCSS</span> e
                         <span class="font-bold">MariaDB</span>
                     </p>
-                    <p class="flex text-white">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
+                    <p class="flex">Github Link: <a class="ml-1 hover:text-gray-500 font-bold" target="_blank"
                             href="https://github.com/MatheusCavalc/Food-App">Link</a>
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
