@@ -42,13 +42,13 @@ onMounted(() => {
             <div class="flex justify-center mb-4">
                 <div class="flex gap-2">
                     <button type="button" @click="changeView('web')"
-                        :class="{ 'text-white bg-slate-900 border': view === 'web', ' text-black bg-white border-2 border-black': view !== 'web' }"
+                        :class="{ 'text-white bg-gradient-to-r from-black to-gray-900 border': view === 'web', ' text-black bg-white border-2 border-black': view !== 'web' }"
                         class="font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
                         Desktop
                     </button>
 
                     <button type="button" @click="changeView('mobile')"
-                        :class="{ 'text-white bg-slate-900 border': view === 'mobile', 'text-black bg-white border-2 border-black': view !== 'mobile' }"
+                        :class="{ 'text-white bg-gradient-to-r from-black to-gray-900 border': view === 'mobile', 'text-black bg-white border-2 border-black': view !== 'mobile' }"
                         class="font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
                         Mobile
                     </button>

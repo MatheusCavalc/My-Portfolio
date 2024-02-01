@@ -12,7 +12,7 @@ import MyTechnologies from '../components/MyTechnologies.vue';
   <MainLayout>
     <div>
 
-      <div class="text-white bg-black pt-24">
+      <div class="text-white bg-gradient-to-b from-black to-gray-950 pt-24">
         <div class="px-3 md:px-14">
           <div class="pb-28">
             <p class="flex gap-2 text-xl">

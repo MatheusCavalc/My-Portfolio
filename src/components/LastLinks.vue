@@ -25,7 +25,7 @@ const copyGmail = () => {
         </div>
 
         <div class="flex justify-center">
-            <div class="flex md:gap-2 gap-3 rounded-xl p-3 mt-2 md:mt-0 bg-black">
+            <div class="flex md:gap-2 gap-3 rounded-xl p-3 mt-2 md:mt-0 bg-gradient-to-r from-black to-gray-950">
                 <a href="https://github.com/MatheusCavalc" target="_blank">
                     <button class="fill-white hover:scale-125 transition ease-in-out delay-50 hover:-translate-y-1">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">

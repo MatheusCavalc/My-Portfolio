@@ -53,7 +53,7 @@ const showMenu = () => {
         <slot />
     </div>
 
-    <footer class="py-6 text-white bg-black">
+    <footer class="py-6 text-white bg-gradient-to-b from-gray-950 to-black">
         <div class="flex justify-center gap-5 mx-8 font-bold md:text-lg">
             <div>
                 <a href="#about-me">Sobre Mim</a>

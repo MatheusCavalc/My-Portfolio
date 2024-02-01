@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="text-white py-10 bg-black">
+    <div class="text-white py-10 bg-gradient-to-b from-black to-gray-950">
         <div class="pt-1 pb-10 px-14 md:mx-32">
             <a id="other-projects"></a>
             <p class="text-4xl font-bold">Outros Projetos</p>
