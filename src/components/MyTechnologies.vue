@@ -48,7 +48,7 @@ window.addEventListener('scroll', debounce(function () {
                 <div class="md:grid md:grid-cols-2 md:gap-8">
 
                     <div class="border-2 border-slate-800 rounded-xl p-5 text-center" data-animation="left">
-                        <p class="text-2xl font-bold">Frontend</p>
+                        <p class="text-xl lg:text-2xl font-bold">Frontend</p>
 
                         <div class="mt-8 flex justify-center">
                             <div class="grid grid-cols-2 gap-x-8 gap-y-4">
@@ -63,7 +63,7 @@ window.addEventListener('scroll', debounce(function () {
                     </div>
 
                     <div class="border-2 border-slate-800 rounded-xl p-5 text-center mt-4 md:mt-0" data-animation="right">
-                        <p class="text-2xl font-bold">Backend</p>
+                        <p class="text-xl lg:text-2xl font-bold">Backend</p>
 
                         <div class="mt-8 flex justify-center">
                             <div class="grid grid-cols-2 gap-x-8 gap-y-4">

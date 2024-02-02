@@ -6,11 +6,11 @@
     <div class="text-white py-10 bg-gradient-to-b from-black to-gray-950">
         <div class="pt-1 pb-10 mx-4 md:mx-32">
             <a id="other-projects"></a>
-            <p class="text-3xl lg:text-4xl font-bold">Outros Projetos</p>
+            <p class="text-3xl lg:text-4xl text-center font-bold">Outros Projetos</p>
 
             <div class="md:grid md:grid-cols-2 md:gap-4 mt-10 text-black">
                 <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
-                    <p class="text-3xl">Areia e Maré Viagens</p>
+                    <p class="text-2xl lg:text-3xl font-bold">Areia e Maré Viagens</p>
 
                     <div class="flex justify-center my-3">
                         <div class="h-0.5 w-full md:w-4/5 bg-white rounded-full"></div>
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
-                    <p class="text-3xl">Encurtador de URL</p>
+                    <p class="text-2xl lg:text-3xl font-bold">Encurtador de URL</p>
 
                     <div class="flex justify-center my-3">
                         <div class="h-0.5 w-full md:w-4/5 bg-white rounded-full"></div>
@@ -67,7 +67,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
-                    <p class="text-3xl">Laravel API e Vue 3 Consume</p>
+                    <p class="text-2xl lg:text-3xl font-bold">Laravel API e Vue 3 Consume</p>
 
                     <div class="flex justify-center my-3">
                         <div class="h-0.5 w-full md:w-4/5 bg-white rounded-full"></div>
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">
-                    <p class="text-3xl">Food App</p>
+                    <p class="text-2xl lg:text-3xl font-bold">Food App</p>
 
                     <div class="flex justify-center my-3">
                         <div class="h-0.5 w-full md:w-4/5 bg-white rounded-full"></div>
