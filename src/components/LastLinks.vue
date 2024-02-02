@@ -21,7 +21,7 @@ const copyGmail = () => {
 <template>
     <div class="mt-20 pb-32">
         <div class="flex justify-center mb-5">
-            <p class="text-4xl font-bold">Entre em Contato</p>
+            <p class="text-3xl lg:text-4xl font-bold">Entre em Contato</p>
         </div>
 
         <div class="flex justify-center">

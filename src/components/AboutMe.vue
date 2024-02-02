@@ -38,9 +38,9 @@ window.addEventListener('scroll', debounce(function () {
 
 <template>
     <div class="text-black bg-white">
-        <div class="py-10 pb-20 px-14 md:mx-32">
+        <div class="py-10 pb-20 mx-7 md:mx-32">
             <a id="about-me"></a>
-            <p class="text-4xl font-bold">Sobre mim</p>
+            <p class="text-3xl lg:text-4xl font-bold">Sobre mim</p>
             <div class="mt-3" data-animation="left">
                 <p>Profissional ágil, com aprendizado contínuo, comunicativo, habituado com a rotina de uma empresa e
                     sempre

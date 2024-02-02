@@ -4,9 +4,9 @@
 
 <template>
     <div class="text-white py-10 bg-gradient-to-b from-black to-gray-950">
-        <div class="pt-1 pb-10 px-14 md:mx-32">
+        <div class="pt-1 pb-10 mx-4 md:mx-32">
             <a id="other-projects"></a>
-            <p class="text-4xl font-bold">Outros Projetos</p>
+            <p class="text-3xl lg:text-4xl font-bold">Outros Projetos</p>
 
             <div class="md:grid md:grid-cols-2 md:gap-4 mt-10 text-black">
                 <div class="bg-white rounded-lg p-5 mb-3 md:mb-0">

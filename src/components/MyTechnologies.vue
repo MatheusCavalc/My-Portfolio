@@ -40,11 +40,11 @@ window.addEventListener('scroll', debounce(function () {
 
 <template>
     <div class="bg-white text-black">
-        <div class="px-14 py-10 md:mx-32 pb-20">
+        <div class="mx-4 py-10 md:mx-32 pb-20">
             <a id="my-technologies"></a>
-            <p class="text-4xl font-bold">Minhas Tecnologias</p>
+            <p class="text-3xl lg:text-4xl font-bold text-center">Minhas Tecnologias</p>
 
-            <div class="mt-5">
+            <div class="mt-5 lg:mt-10">
                 <div class="md:grid md:grid-cols-2 md:gap-8">
 
                     <div class="border-2 border-slate-800 rounded-xl p-5 text-center" data-animation="left">
