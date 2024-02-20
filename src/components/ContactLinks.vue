@@ -22,7 +22,7 @@ const copyGmail = () => {
     <div>
         <div class="flex justify-center flex-col lg:flex-row gap-2 mt-4 md:gap-2">
             <div class="flex justify-center">
-                <a href="https://drive.google.com/file/d/16McHhfFUFB4LQKNzbfSqZ1JDo_nuRX4X/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1RFKq-Q0iKikfgWKbztGMDVpHtfO9MXN7/view?usp=sharing"
                     target="_blank">
                     <button
                         class="flex gap-1 lg:gap-2 px-6 py-2 mb-2 font-bold bg-white transition ease-in-out delay-100 rounded-full border border-white text-black hover:bg-black hover:text-white md:mb-0">
