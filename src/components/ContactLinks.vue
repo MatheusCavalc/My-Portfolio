@@ -20,34 +20,38 @@ const copyGmail = () => {
 
 <template>
     <div>
-        <div class="flex justify-center gap-2 mt-4 md:gap-2">
-            <a href="https://drive.google.com/file/d/16McHhfFUFB4LQKNzbfSqZ1JDo_nuRX4X/view?usp=sharing" target="_blank">
-                <button
-                    class="flex gap-1 lg:gap-2 px-4 py-2 mb-2 font-bold bg-white rounded-full text-slate-900 hover:bg-slate-900 hover:text-white md:mb-0">
-                    <p class="mt-0.5 text-sm lg:text-base">
-                        Baixar CV
-                    </p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                    </svg>
-                </button>
-            </a>
-
-            <a href="https://api.whatsapp.com/send?phone=5585985597635" target="_blank">
-                <button
-                    class="flex gap-2 px-4 py-2 mb-2 font-bold bg-white rounded-full text-slate-900 hover:bg-slate-900 hover:text-white md:mb-0">
-                    <p class="mt-0.5 text-sm lg:text-base">
-                        Entre em Contato
-                    </p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
-                    </svg>
-                </button>
-            </a>
+        <div class="flex justify-center flex-col lg:flex-row gap-2 mt-4 md:gap-2">
+            <div class="flex justify-center">
+                <a href="https://drive.google.com/file/d/16McHhfFUFB4LQKNzbfSqZ1JDo_nuRX4X/view?usp=sharing"
+                    target="_blank">
+                    <button
+                        class="flex gap-1 lg:gap-2 px-6 py-2 mb-2 font-bold bg-white transition ease-in-out delay-100 rounded-full border border-white text-black hover:bg-black hover:text-white md:mb-0">
+                        <p class="mt-0.5 text-sm lg:text-base">
+                            Baixar CV
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+                    </button>
+                </a>
+            </div>
+            <div class="flex justify-center">
+                <a href="https://api.whatsapp.com/send?phone=5585985597635" target="_blank">
+                    <button
+                        class="flex gap-2 px-6 py-2 mb-2 font-bold bg-transparent transition ease-in-out delay-100 rounded-full border border-white text-white hover:bg-black hover:text-white md:mb-0">
+                        <p class="mt-0.5 text-sm lg:text-base">
+                            Entre em Contato
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                        </svg>
+                    </button>
+                </a>
+            </div>
         </div>
 
         <div class="flex justify-center gap-2 mt-3 hover:text-black">
