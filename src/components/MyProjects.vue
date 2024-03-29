@@ -3,7 +3,7 @@ import SkinsMarketplace from './projects/SkinsMarketplace.vue';
 import EnewsProject from './projects/EnewsProject.vue';
 import TasksApp from './projects/TasksApp.vue';
 import SneakersApp from './projects/SneakersApp.vue';
-import WriterProject from './projects/WriterProject.vue';
+import InvoiceApp from './projects/InvoiceApp.vue';
 import SushiFortal from './projects/SushiFortal.vue';
 
 const debounce = (func, wait, immediate) => {
@@ -45,19 +45,19 @@ window.addEventListener('scroll', debounce(function () {
 
 <template>
     <div class="text-black bg-white">
-        <div class="mx-5 py-10 md:mx-32">
+        <div class="py-10 mx-5 md:mx-32">
             <a id="my-projects"></a>
-            <p class="text-3xl lg:text-4xl font-bold text-center lg:text-left">Meus Projetos</p>
+            <p class="text-3xl font-bold text-center lg:text-4xl lg:text-left">Meus Projetos</p>
 
             <TasksApp />
 
+            <InvoiceApp />
+
             <SushiFortal />
-            
+
             <SneakersApp />
 
             <EnewsProject />
-
-            <WriterProject />
 
             <SkinsMarketplace />
         </div>
