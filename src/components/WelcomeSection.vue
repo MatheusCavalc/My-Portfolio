@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-24 text-white bg-gradient-to-b from-black to-gray-950">
+    <div class="pt-24 text-white bg-gradient-to-br from-black via-gray-950 to-black">
         <div class="px-3 md:px-14">
             <div class="pb-28">
                 <!-- Icons -->
@@ -29,10 +29,10 @@
                     </div>
 
                     <div class="order-2 mt-10 leading-5 text-center md:mt-20 md:order-1 md:text-left">
-                        <h1 class="text-xl md:text-2xl">Oi, eu me chamo</h1>
-                        <h1 class="text-3xl md:text-4xl">Matheus Cavalcante</h1>
-                        <p class="text-lg md:text-xl">Sou um desenvolvedor web <span
-                                class="text-3xl">Full-Stack</span><span class="text-3xl md:text-4xl">.</span></p>
+                        <h1 class="text-xl md:text-3xl">Oi, eu me chamo</h1>
+                        <h1 class="text-3xl md:text-5xl">Matheus Cavalcante</h1>
+                        <p class="text-lg md:text-2xl">Sou um desenvolvedor web <span
+                                class="text-3xl">Full-Stack</span><span class="text-3xl md:text-5xl">.</span></p>
 
                         <div>
                             <ContactLinks />

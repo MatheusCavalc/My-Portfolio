@@ -50,3 +50,12 @@
     stroke-dashoffset: -134;
     stroke-width: 6;
 }
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/Aeonik.otf');
+}
+
+body {
+    font-family: 'Aeonik', 'sans-serif';
+}

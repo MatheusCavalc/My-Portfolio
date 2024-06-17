@@ -10,7 +10,7 @@ let menu = ref(false)
 </script>
 
 <template>
-    <nav :class="{ 'rounded-b-2xl': menu, 'rounded-none': !menu }" class="fixed z-50 w-full bg-black lg:rounded-none">
+    <nav :class="{ 'rounded-b-2xl': menu, 'rounded-none': !menu }" class="fixed z-50 w-full bg-gradient-to-r from-black via-black to-black lg:bg-gradient-to-r lg:from-black lg:via-gray-950 lg:to-black lg:rounded-none">
         <div class="flex flex-wrap items-center justify-end max-w-screen-xl p-3 mx-auto lg:p-5">
             <button @click="menu = !menu" :class="{ 'opened': menu }"
                 class="inline-flex items-center justify-center w-10 h-10 p-1 text-sm text-gray-500 rounded-lg md:hidden"
@@ -20,7 +20,7 @@ let menu = ref(false)
             </button>
             <div :class="{ 'md:block': menu, 'hidden md:block': !menu }" class="w-full md:w-auto" id="navbar-default">
                 <ul
-                    class="flex flex-col p-3 mt-4 font-medium text-white bg-black rounded-lg md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black">
+                    class="flex flex-col p-3 mt-4 font-medium text-white bg-black rounded-lg lg:bg-transparent md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black">
                     <li>
                         <a href="#about-me"
                             class="block py-2 pl-3 pr-4 rounded hover:text-black hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0">

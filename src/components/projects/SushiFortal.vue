@@ -3,41 +3,42 @@
 </script>
 
 <template>
-    <div id="project-3" class="mt-10 md:flex md:gap-3">
-        <div data-animation="left">
-            <a target="_blank" href="https://sushifortal.com.br/">
-                <img class="object-cover border border-black" src="../../assets/images/Sushi-Fortal.png"
+    <div id="project-3" class="mt-10 md:flex md:gap-10">
+        <div>
+            <a target="_blank" href="https://sushiaky.com.br/">
+                <img class="object-cover border border-black" src="../../assets/images/sushiaky.png"
                     alt="Project Studio Lar">
             </a>
         </div>
 
-        <div class="" data-animation="right">
+        <div>
             <div class="w-full md:w-96">
                 <div class="mt-4 md:mt-0">
-                    <h1 class="text-2xl font-bold text-center md:text-4xl">Sushi Fortal</h1>
+                    <h1 class="text-2xl font-bold text-center md:text-4xl">SushiAky</h1>
                 </div>
 
-                <div class="mt-6 md:ml-3">
+                <div class="mt-6">
                     <p class="">
                         Cardápio online que proporciona uma experiência intuitiva e agradável aos usuários. Visando
-                        simplificar o processo de pedidos, a aplicação permite o envio direto dos pedidos para o WhatsApp do
+                        simplificar o processo de pedidos, a aplicação permite o envio direto dos pedidos para o
+                        WhatsApp do
                         estabelecimento.</p>
                 </div>
             </div>
 
-            <div class="mt-2 md:ml-3">
+            <div class="mt-2">
                 <p>
-                    Frameworks utilizados: <span class="font-bold">Vue.js 3</span> e <span
+                    Frameworks utilizados: <span class="font-bold">Nuxt 3</span> e <span
                         class="font-bold">TailwindCSS</span>
                 </p>
             </div>
 
-            <div class="mt-2 md:ml-3">
-                <p class="flex">
-                    Website: <a class="ml-1 font-bold text-slate-800 hover:underline" target="_blank"
-                        href="https://sushifortal.com.br/">Link</a> <span><img class="w-5 h-5 md:h-6 md:w-6"
-                            src="../../assets/icons/redirect.svg" alt=""></span>
-                </p>
+            <div class="mt-4">
+                <a target="_blank" href="https://sushiaky.com.br/">
+                    <button type="button"
+                        class="text-white bg-black hover:bg-gray-900 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 w-full lg:w-fit">Ver
+                        Website</button>
+                </a>
             </div>
         </div>
     </div>
