@@ -1,3 +1,7 @@
+<script setup>
+import ContactLinks from '../components/ContactLinks.vue';
+</script>
+
 <template>
     <div class="pt-24 text-white bg-gradient-to-br from-black via-gray-950 to-black">
         <div class="px-3 md:px-14">

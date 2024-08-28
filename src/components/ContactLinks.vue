@@ -20,12 +20,12 @@ const copyGmail = () => {
 
 <template>
     <div>
-        <div class="flex justify-center flex-col lg:flex-row gap-2 mt-4 md:gap-2">
+        <div class="flex flex-col justify-center gap-2 mt-4 lg:flex-row md:gap-2">
             <div class="flex justify-center">
-                <a href="https://drive.google.com/file/d/1RFKq-Q0iKikfgWKbztGMDVpHtfO9MXN7/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1yCykNa_L7iksxILTQemxUdgNc7GZ4ZA0/view?usp=sharing"
                     target="_blank">
                     <button
-                        class="flex gap-1 lg:gap-2 px-6 py-2 mb-2 font-bold bg-white transition ease-in-out delay-100 rounded-full border border-white text-black hover:bg-black hover:text-white md:mb-0">
+                        class="flex gap-1 px-6 py-2 mb-2 font-bold text-black transition ease-in-out delay-100 bg-white border border-white rounded-full lg:gap-2 hover:bg-black hover:text-white md:mb-0">
                         <p class="mt-0.5 text-sm lg:text-base">
                             Baixar CV
                         </p>
@@ -40,7 +40,7 @@ const copyGmail = () => {
             <div class="flex justify-center">
                 <a href="https://api.whatsapp.com/send?phone=5585985597635" target="_blank">
                     <button
-                        class="flex gap-2 px-6 py-2 mb-2 font-bold bg-transparent transition ease-in-out delay-100 rounded-full border border-white text-white hover:bg-black hover:text-white md:mb-0">
+                        class="flex gap-2 px-6 py-2 mb-2 font-bold text-white transition ease-in-out delay-100 bg-transparent border border-white rounded-full hover:bg-black hover:text-white md:mb-0">
                         <p class="mt-0.5 text-sm lg:text-base">
                             Entre em Contato
                         </p>
