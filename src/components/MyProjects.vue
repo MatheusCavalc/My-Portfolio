@@ -5,6 +5,7 @@ import TasksApp from './projects/TasksApp.vue';
 import SneakersApp from './projects/SneakersApp.vue';
 import InvoiceApp from './projects/InvoiceApp.vue';
 import SushiFortal from './projects/SushiFortal.vue';
+import ProjectsSection from './ProjectsSection.vue';
 
 const debounce = (func, wait, immediate) => {
     let timeout;
@@ -49,6 +50,9 @@ window.addEventListener('scroll', debounce(function () {
             <a id="my-projects"></a>
             <p class="text-3xl font-bold text-center lg:text-4xl lg:text-left">Meus Projetos</p>
 
+            <ProjectsSection />
+
+            <!--
             <TasksApp />
 
             <InvoiceApp />
@@ -60,6 +64,7 @@ window.addEventListener('scroll', debounce(function () {
             <EnewsProject />
 
             <SkinsMarketplace />
+            -->
         </div>
     </div>
 </template>
